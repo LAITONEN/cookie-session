@@ -76,6 +76,8 @@ The list of keys to use to sign & verify cookie values. Set cookies are always
 signed with `keys[0]`, while the other keys are valid for verification, allowing
 for key rotation.
 
+In other words, keys are used to encrypt and decrypt the data that we store inside the cookie of our browser.
+
 ##### secret
 
 A string which will be used as single key if `keys` is not provided.
